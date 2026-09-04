@@ -1,0 +1,24 @@
+{
+  "name": "cse341_project1",
+  "version": "1.0.0",
+  "description": "Educational Project",
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "homepage": "https://github.com/sthephaniplatero/cse341_project1#readme",
+  "bugs": {
+    "url": "https://github.com/sthephaniplatero/cse341_project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthephaniplatero/cse341_project1.git"
+  },
+  "license": "ISC",
+  "author": "Sthephani Platero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
