@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:3000
+
+### Get all users
+GET {{baseUrl}}/users
+
+
+### Get single user by id
+GET {{baseUrl}}/users/6483ce023f46080356e0c6d9
+
+
+### Create a new user
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "username": "splatero",
+  "email": "sthephani@example.com",
+  "name": "Sthephani Platero",
+  "ipaddress": "192.168.1.1"
+}
+
+
+### Update an existing user
+PUT {{baseUrl}}/users/6aa22118f94e49e852b24a53
+Content-Type: application/json
+
+{
+  "username": "splatero",
+  "email": "sthephani-updated@example.com",
+  "name": "Sthephani Platero",
+  "ipaddress": "192.168.1.2"
+}
+
+
+### Delete a user
+DELETE {{baseUrl}}/users/6aa22118f94e49e852b24a53
